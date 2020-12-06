@@ -1,0 +1,14 @@
+playopt 1000 {
+    request {
+    optUnit 0 : optUnit
+  }
+  response {
+    ret 0 : integer
+    optUnit 1 : optUnit
+  }
+}
+
+.optUnit {
+  type 0 : integer
+  param 1 : integer
+}
